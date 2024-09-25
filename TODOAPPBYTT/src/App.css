@@ -1,0 +1,130 @@
+/* Container styling */
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.todo-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-container h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.todo-container p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.flex{
+  display:flex;
+}
+.todo-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.todo-input:focus {
+  border-color: #007bff;
+}
+
+.todo-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.clear-btn{
+  padding:10px 20px;
+  font-size:1rem;
+  color:#fff;
+  background-color:#c82333;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+
+}
+
+.todo-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Task list styling */
+.unOrderList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.unOrderList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.unOrderList li span {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Buttons styling */
+.check-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.check-btn {
+  color: #28a745;
+}
+
+.check-btn:hover {
+  color: #218838;
+}
+.checked{
+  text-decoration:line-through;
+}
+.non-checked{
+  text-decoration:none;
+}
+.delete-btn {
+  color: #dc3545;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  color: #c82333;
+}
