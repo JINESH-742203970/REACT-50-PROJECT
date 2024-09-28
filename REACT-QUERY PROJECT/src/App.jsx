@@ -6,7 +6,7 @@ function App() {
             <h1>The Awesome React query</h1>
             <div>
                 <Link to="/">Home</Link> <br />
-                <Link to="/products">Products</Link>
+                <Link to="/product">Products</Link>
             </div>
         </>
     );
